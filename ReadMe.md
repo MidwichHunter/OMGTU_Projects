@@ -1,6 +1,6 @@
 screenshot:
 Регистрация пользователя:
-[Image alt](https://github.com/MidwichHunter/OMGTU_Projects/blob/TG_Bot/Scrinshots/Registration.jpg)
+![Image](https://github.com/MidwichHunter/OMGTU_Projects/blob/TG_Bot/Scrinshots/Registration.jpg)
 
 
 
