@@ -1,1 +1,2 @@
-![image](https://github.com/MidwichHunter/OMGTU_Projects/assets/163433762/fec1115b-bd27-4433-96df-c3c266f351f7)
+Aiogram 3.8.0
+sqlalchemy 2.0.3
