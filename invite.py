@@ -27,12 +27,12 @@ def parse_hh_ru():
 
                 # Инициализация BeautifulSoup с содержимым файла
             soup = BeautifulSoup(html_content, 'html.parser')
-            vacancies = soup.find_all('div', class_='serp-item serp-item_link')
+            vacancies = soup.find_all('div', class_='vacancy-card--H8LvOiOGPll0jZvYpxIF font-inter')
             for vacancy in vacancies:
                 href = ((vacancy.find('a', {'class': 'bloko-link'}))['href'])#Ссылка на вакансию
-                age_work =  (((vacancy.find('div', {'class': 'bloko-text','data-qa':'vacancy-serp__vacancy-work-experience'})).text).replace("\xa0", ""))#Опыт работы
-                geography =  ((vacancy.find('div', {'class': 'bloko-text','data-qa':'vacancy-serp__vacancy-address'})).text).replace("\xa0", "")#Где находится
-                company =  ((vacancy.find('a', {'data-qa': 'vacancy-serp__vacancy-employer','class':'bloko-link bloko-link_kind-tertiary'})).text).replace("\xa0", "")# Работодатель
+                age_work =  (((vacancy.find('span', {'class': 'label--rWRLMsbliNlu_OMkM_D3 label_light-gray--naceJW1Byb6XTGCkZtUM','data-qa':'vacancy-serp__vacancy-work-experience'})).text).replace("\xa0", ""))#Опыт работы
+                geography =  ((vacancy.find('span', {'class': 'fake-magritte-primary-text--qmdoVdtVX3UWtBb3Q7Qj'})).text).replace("\xa0", "")#Где находится
+                company =  ((vacancy.find('span', {'class':'company-info-text--O32pGCRW0YDmp3BHuNOP'})).text).replace("\xa0", "")# Работодатель
                 name =  vacancy.find('span', {'data-qa': 'serp-item__title'}).text.replace("\xa0", "")#Кем работать
                 salary = vacancy.find('span',{'data-qa':'vacancy-serp__vacancy-compensation'})#Поиск зп
                 salary_text = (salary.text if salary else 'Зарплата не указана').replace("\xa0", "")#преобразование данных в ЗП
