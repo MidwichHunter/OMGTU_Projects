@@ -1,17 +1,23 @@
-screenshot:
-Регистрация пользователя:
-![Image](https://github.com/MidwichHunter/OMGTU_Projects/blob/TG_Bot/Scrinshots/Registration.jpg)
-Запись в Базу Данных:
-![Image](https://github.com/MidwichHunter/OMGTU_Projects/blob/TG_Bot/Scrinshots/DatabaseInject.jpg)
-Сброс записи с Марафона:
-![Image](https://github.com/MidwichHunter/OMGTU_Projects/blob/TG_Bot/Scrinshots/Say_Goodbye_Holliwood.jpg)
-Удаление данных из БД:
-![Image](https://github.com/MidwichHunter/OMGTU_Projects/blob/TG_Bot/Scrinshots/Database_Update.png)
+screenshots:
+Форма Сайта::
+![Image](https://github.com/MidwichHunter/OMGTU_Projects/blob/Flask_Site/Flask_Site/Screenshots/Main.jpg)
+Ошибка при некорректном вводе почты:
+![Image](https://github.com/MidwichHunter/OMGTU_Projects/blob/Flask_Site/Flask_Site/Screenshots/main_error.jpg)
+Отправленная анкета:
+![Image](https://github.com/MidwichHunter/OMGTU_Projects/blob/Flask_Site/Flask_Site/Screenshots/Complete.jpg)
+Записанные данные в файл json:
+![Image](https://github.com/MidwichHunter/OMGTU_Projects/blob/Flask_Site/Flask_Site/Screenshots/Site_InjectForm.jpg)
 
+Юнит-Тесты:
+1-я Часть:
+![Image](https://github.com/MidwichHunter/OMGTU_Projects/blob/Flask_Site/Flask_Site/Screenshots/Test_Complete.jpg)
+2-я Часть:
+![Image](https://github.com/MidwichHunter/OMGTU_Projects/blob/Flask_Site/Flask_Site/Screenshots/Test_complete2.jpg)
 
 
 
 requirements:
 
-Aiogram 3.8.0
-sqlalchemy 2.0.3
+Flask
+Flask_WTF
+wtforms 
