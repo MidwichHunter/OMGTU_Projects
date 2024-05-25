@@ -1,4 +1,6 @@
-screenshot:
+screenshots:
+Главное меню:
+![Image](https://github.com/MidwichHunter/OMGTU_Projects/blob/TG_Bot/Scrinshots/main.jpg)
 Регистрация пользователя:
 ![Image](https://github.com/MidwichHunter/OMGTU_Projects/blob/TG_Bot/Scrinshots/Registration.jpg)
 Запись в Базу Данных:
